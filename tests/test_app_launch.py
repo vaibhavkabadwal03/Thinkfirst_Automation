@@ -1,4 +1,4 @@
-from driver.driver_factory import create_driver
+# from driver.driver_factory import create_driver
 
 def test_thinkfirst_launch(driver):
     # driver = create_driver()
@@ -7,4 +7,5 @@ def test_thinkfirst_launch(driver):
     # driver.quit()
 
     assert driver.current_package=="com.neighborly.thinkfirst"
+    print("Current Package:", driver.current_package)
     

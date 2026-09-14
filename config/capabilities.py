@@ -1,14 +1,5 @@
 from appium.options.android import UiAutomator2Options
 
-from config.settings import (
-    APPIUM_SERVER_URL,
-      PLATFORM_NAME, 
-      DEVICE_NAME, 
-      APP_PACKAGE, 
-      APP_ACTIVITY, 
-      AUTOMATION_NAME)
-
-
 def get_android_options() -> UiAutomator2Options:
     options = UiAutomator2Options()
     options.platform_name = "Android"
