@@ -1,0 +1,6 @@
+APPIUM_SERVER_URL = "http://localhost:4723"
+PLATFORM_NAME = "Android"
+DEVICE_NAME = "emulator-5554"
+APP_PACKAGE = "com.neighborly.thinkfirst"
+APP_ACTIVITY = "com.neighborly.thinkfirst.MainActivity"
+AUTOMATION_NAME = "UiAutomator2"
